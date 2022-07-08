@@ -6,7 +6,7 @@
 }
 body {
   background-color: hsl(0, 100%, 74%);
-  background-image: url("../bg-intro-desktop.png");
+  background-image: url("../img/bg-intro-desktop.png");
   font-family: "Poppins" sans-serif;
   color: #fff;
 }
