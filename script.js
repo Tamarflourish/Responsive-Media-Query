@@ -3,18 +3,18 @@ const form = document.getElementById("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const first = form["firstname"].value;
-  const last = form["lastname"].value;
+  const firstName = form["firstname"].value;
+  const lastName = form["lastname"].value;
   const email = form["email"].value;
   const password = form["password"].value;
 
-  if (firstname === "") {
+  if (firstName === "") {
     addErrorTo('firstname', 'First Name is required');
   } else {
     removeErroFrom('firstname');
   }
 
-  if (lastname === "") {
+  if (lastName === "") {
     addErrorTo('lastname', 'Last Name is required');
   } else {
     removeErroFrom('lastname');
