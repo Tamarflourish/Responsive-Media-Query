@@ -4,8 +4,13 @@
 }
 body {
   background-color: hsl(0, 100%, 74%);
+<<<<<<< HEAD
   background-image: url("./img/bg-intro-desktop.png");
   font-family: "Poppins", sans-serif;
+=======
+  background-image: url("../img/bg-intro-desktop.png");
+  font-family: "Poppins" sans-serif;
+>>>>>>> de66d4a13e1a1bdc8a06592965a79c41675d82bf
   color: #fff;
 }
 .description {
@@ -131,7 +136,13 @@ small a {
   p {
     text-align: center;
   }
+<<<<<<< HEAD
   .description {
     flex-direction: column;
   }
+=======
+ .description{
+  flex-direction: column;
+ } 
+>>>>>>> de66d4a13e1a1bdc8a06592965a79c41675d82bf
 }
